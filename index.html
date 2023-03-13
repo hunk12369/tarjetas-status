@@ -7,6 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <!--links css -->
   <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/desktop1440.css" media="screen and (min-width: 1440px)">
   <!--Fuentes css-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,6 +29,7 @@
     
     <div class="filtro">
       <picture>
+        <source media="screen and (min-width: 1440px)" srcset="./images/image-header-desktop.jpg">
         <img src="./images/image-header-mobile.jpg" alt="">
       </picture>
     </div>
@@ -40,24 +42,26 @@
         Discover the benefits of data analytics and make better decisions regarding revenue, customer 
         experience, and overall efficiency.
       </p>
-      <div class="contenedor_informacion_estatus_pagina">
-        10k+ 
-      </div>
-      <div class="contenedor_informacion_estatus_titulos">
-        companies
-      </div>
-      <div class="contenedor_informacion_estatus_pagina">
-        314 
-      </div>
-      <div class="contenedor_informacion_estatus_titulos">
-        templates
-      </div>
-      <div class="contenedor_informacion_estatus_pagina">
-        12m+
-      </div> 
-      <div class="contenedor_informacion_estatus_titulos">
-        queries
-      </div>
+
+      <div class="informacion_estatus">
+        <div class="contenedor_informacion_estatus_pagina">
+          10k+ 
+          <div class="contenedor_informacion_estatus_titulos">
+            companies
+          </div>
+        </div>
+        <div class="contenedor_informacion_estatus_pagina">
+          314 
+          <div class="contenedor_informacion_estatus_titulos">
+            templates
+          </div>
+        </div>
+        <div class="contenedor_informacion_estatus_pagina">
+          12m+
+          <div class="contenedor_informacion_estatus_titulos">
+            queries
+          </div>
+        </div> 
       </div>
     </div>
   </div>
